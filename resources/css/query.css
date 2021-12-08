@@ -1,0 +1,112 @@
+@media screen and (max-width:768px) {
+    .hero-content span {
+        font-size: 1.5rem;
+    }
+
+    .paul {
+        width: 100%;
+
+    }
+
+    .about-grid {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .experienceGrid,
+    .gridContact {
+        grid-template-columns: 1fr;
+    }
+
+    .process-grid,
+    .gridProtfolio {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width:480px) {
+
+    html,
+    body {
+        font-size: 8px
+    }
+
+    h1 {
+        font-size: 6rem;
+    }
+
+    .hero-content span {
+        font-size: 1.5rem
+    }
+
+    .paul {
+        width: 100%;
+    }
+
+    .about-grid {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .about-grid h4 {
+        font-size: 1.7rem
+    }
+
+    .about-grid p {
+        font-size: 1.3rem
+    }
+
+    .section-title h2 {
+        font-size: 3rem;
+    }
+
+    .section-title p {
+        font-size: 1.5rem;
+    }
+
+    .process-grid,
+    .gridTestimonial,
+    .gridProtfolio,
+    .gridContact,
+    .experienceGrid {
+        grid-template-columns: 1fr;
+    }
+
+
+    .experienceGrid img {
+        width: 100%;
+    }
+
+    .grid5 {
+        grid-column: 1 /2;
+    }
+
+    .protfolioTitel p {
+        font-size: 1.5rem;
+    }
+
+    .filterBtn {
+        padding: 1.5rem
+    }
+
+    #testimonial {
+        background-image: none;
+        background: #f5f5f5;
+    }
+
+    .gridTestimonial {
+        grid-template-columns: 1fr;
+    }
+
+    .gridTestimonial {
+        font-size: 2rem;
+    }
+
+    .submit {
+        font-size: 2rem;
+    }
+
+    .about-cta {
+        font-size: 2rem;
+    }
+}
